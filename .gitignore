@@ -16,3 +16,5 @@
 # Logs de crash Terraform
 crash.log
 crash.*.log
+
+ssh_config_tp15
