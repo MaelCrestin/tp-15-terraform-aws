@@ -1,0 +1,18 @@
+# État Terraform - contient des données sensibles, ne jamais committer
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Cache des plugins - lourd, régénérable via terraform init
+.terraform/
+
+# Fichiers de variables pouvant contenir des secrets
+*.tfvars
+*.tfvars.json
+
+# Clés privées, au cas où
+*.pem
+
+# Logs de crash Terraform
+crash.log
+crash.*.log
